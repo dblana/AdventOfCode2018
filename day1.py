@@ -9,6 +9,7 @@ file = 'day1_input.txt'
 
 lines = open(file).read().splitlines()
 
+
 # Part 1
 one_line = ''.join(lines)
 print(eval(one_line))
@@ -25,4 +26,3 @@ while current_freq not in frequencies:
     index +=1
     if index == len_lines:
         index=0
-    
